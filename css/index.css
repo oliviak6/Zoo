@@ -29,3 +29,32 @@ h3 {
   font-family: monospace;
   margin-bottom: 10px;
 }
+
+.arrow {
+  width: 75px;
+  height: auto;
+  margin: 20px 0;
+  transition: transform 0.3s; 
+}
+
+.arrow:hover {
+  transform: scale(1.1); 
+}
+
+.index-img {
+  width: 100%;  
+  max-width: 650px;  
+  height: auto; 
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c0b17;
+}
+
+a:hover {
+  color: #af4c91;
+}
